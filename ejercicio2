@@ -1,0 +1,27 @@
+package xddd;
+import java.util.Scanner;
+
+public class d {
+	public static void main(String args[]) {
+	Scanner scanner = new Scanner (System.in);
+	double ad;
+		do {
+		System.out.println("Ingrese el primer valor: ");
+		double a = scanner.nextDouble();
+		System.out.println("Ingrese el segundo valor: ");
+		double b = scanner.nextDouble();
+		if(a > b) {
+			System.out.println("El valor " + a + " Es mayor");
+		}
+		else if(a < b) {
+			System.out.println("El valor " + b + " Es mayor");
+		}
+		else if(a == b) {
+			System.out.println("Ambos valores son iguales");
+		}
+		 System.out.println("Desea continuar? si (1), no (0)");
+         ad = scanner.nextDouble(); 
+	} while (ad == 1);
+		scanner.close();
+	}
+}

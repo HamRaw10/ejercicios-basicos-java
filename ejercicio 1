@@ -1,1 +1,26 @@
+package xddd;
+import java.util.Scanner;
 
+public class d {
+	public static void main(String args[]) {
+		//System.out.println("Seleccione un numero: ");
+		Scanner scanner = new Scanner (System.in);
+		//double num = scanner.nextDouble();
+			System.out.println("Ingrese el primer numero: ");
+			double b = scanner.nextDouble();
+			System.out.println("Ingrese el segundo numero: ");
+			double c = scanner.nextDouble();
+			double d = b + c;
+			System.out.println("La suma de " + b + " + " + c + " es: " + d);
+			double e = b - c;
+			System.out.println("La resta de " + b + " - " + c + " es: " + e);
+			double f = b / c;
+			System.out.println("La division de " + b + " / " + c + " es: " + f);
+			System.out.println("Ingrese el primer numero: ");
+			double g = b * c;
+			System.out.println("La multiplicacion de " + b + " * " + c + " es: " + g);
+			double h = b % c;
+			System.out.println("El modulo o resto de la division de " + b + " % " + c + " es: " + h);
+	}
+
+}

@@ -1,0 +1,16 @@
+package ea;
+import java.util.Scanner;
+
+public class e {
+		public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Introduzca un numero: ");
+		int num1 = sc.nextInt();
+		if (num1 % 2 == 0) {
+				System.out.println("Su numero es divisible por 2");
+		}
+		else{
+			System.out.println("Su numero no es divisible por 2");
+		}
+	}
+}

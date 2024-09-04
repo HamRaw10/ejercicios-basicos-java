@@ -1,0 +1,13 @@
+package ea;
+import java.util.Scanner;
+
+public class e {
+		public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Introduzca un numero: ");
+		double d = sc.nextDouble();
+		double pi = 3.14;
+		double radiopow = Math.pow(d, pi);
+		System.out.println("El area del circulo del valor:  " + d + "\nEs: " + radiopow * pi);
+		}
+}

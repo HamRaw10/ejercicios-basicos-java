@@ -1,0 +1,13 @@
+package ea;
+import java.util.Scanner;
+
+public class e {
+		public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Introduzca un numero: ");
+		int num1 = sc.nextInt();
+		char nume = (char) num1;
+		System.out.println("Usted ingreso el numero: " + num1 + "\nY su valor ASCII es: " + nume);
+		
+	}
+}

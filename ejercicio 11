@@ -1,0 +1,12 @@
+package holaxd;
+import java.util.Scanner;
+
+public class oaaa {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Introduzca un numero: ");
+		for(int num = 1; num <= 100; num++) {
+			System.out.println(num);
+		}
+	}
+}

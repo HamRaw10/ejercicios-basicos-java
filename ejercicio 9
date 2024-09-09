@@ -1,1 +1,19 @@
+package holaxd;
+import java.util.Scanner;
+
+public class oaaa {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Introduzca un numero: ");
+		Double num1 = sc.nextDouble();
+		if(num1 <= 0) {
+			System.out.println("\nIntroduzca un valor mayor a 0 >:v\n");
+		}
+		else{
+			double iva = num1 / 100 * 21;
+			double iva2 = num1 + iva;
+			System.out.println("El precio mas el IVA de ese numero es: " + iva2);
+		}
+	}
+}
 

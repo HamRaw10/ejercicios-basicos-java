@@ -1,0 +1,25 @@
+package xd;
+import java.util.Scanner;
+
+public class oa {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		int intentos = 3;
+		String a;
+		String b;
+		System.out.println("Crea una la contraseña: ");
+		a = sc.next();	
+		for(int i = 1; i <= intentos; i++) {
+				System.out.println("Ingrese la contraseña: ");
+				b = sc.next();
+				if(b.equals(a)) {
+					System.out.println("Enhorabuena");
+					break;
+				}
+				else {
+					System.out.println("Incorrecto, siga");
+				}
+			}	
+		
+	}
+}

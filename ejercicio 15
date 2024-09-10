@@ -9,6 +9,6 @@ public class oaaa {
 			System.out.println("Ingrese un numero mayor a cero: ");
 			a = sc.nextDouble();
 		}
-		while(a > 0);
+		while(a <= 0);
 	}
 }

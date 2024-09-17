@@ -1,0 +1,21 @@
+package oa;
+import java.util.Scanner;
+
+public class esa {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Ingrese un numero");
+		double a = sc.nextDouble();
+		double cont = 0;
+		if(a > 1) {
+			for(int i = 1; i <= a; i++) {
+				cont += i;
+				System.out.println(cont);
+			}
+		}
+		else {
+			System.out.println("Ingrese un valor mayor a 1");
+		}
+		
+	}
+}

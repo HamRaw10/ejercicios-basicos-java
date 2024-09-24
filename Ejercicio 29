@@ -1,0 +1,19 @@
+package e;
+import java.util.Scanner;
+
+public class oa {
+	public static void main(String[] args) {
+		boolean variable = true;
+		do {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Ingrese un string xd: ");
+		String a = sc.nextLine();
+		System.out.println(a);
+		if(a.isEmpty()){ 
+			variable = false; 
+		}
+		System.out.println("Ingresaste una tecla incorrecta xd ");
+		System.out.println("Ahora va a terminar el programa :( ...");
+		} while(variable = false);
+	}
+}

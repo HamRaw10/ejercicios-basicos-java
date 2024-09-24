@@ -1,0 +1,18 @@
+package e;
+import java.util.Scanner;
+
+public class oa {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Ingrese un string xd: ");
+		String a = sc.nextLine();
+		System.out.println(a);
+		StringBuilder ab = new StringBuilder();
+		for(int i = 0; i < a.length(); i++){
+			if(a.charAt(i) != ' ') {
+				ab.append(a.charAt(i));
+			}
+		}
+		System.out.println(ab.toString());
+	}
+}

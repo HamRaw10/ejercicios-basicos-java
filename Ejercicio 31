@@ -1,0 +1,13 @@
+package e;
+import java.util.Scanner;
+
+public class oa {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Ingrese un string xd: ");
+		String a = sc.nextLine();
+		int OA = a.length();
+		System.out.println(OA);
+		
+	}
+}
